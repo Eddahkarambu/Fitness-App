@@ -1,1 +1,9 @@
+body{
+  background-color: rgb(87, 133, 170);
+  
+}
 
+.targets{
+  display: flex;
+
+}

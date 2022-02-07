@@ -3,6 +3,7 @@
 function App() {
   return (
     <div className="App">
+      <div className="All">
       <h1>FITNESS APP</h1>
       <h2>Targer Muscle</h2>
       <h3>Select Target muscle</h3>
@@ -13,6 +14,7 @@ function App() {
         <button>Abs</button>
         <button>Legs</button>
 
+      </div>
       </div>
 
     </div>
