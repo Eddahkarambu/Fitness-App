@@ -1,5 +1,5 @@
 body{
-  background-color: rgb(87, 133, 170);
+
   
 }
 
@@ -7,3 +7,10 @@ body{
   display: flex;
 
 }
+.App{
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  
+}
+
