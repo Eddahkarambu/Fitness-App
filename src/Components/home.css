@@ -6,23 +6,18 @@
 .Heading{
     padding-top: 50px;
     font-weight: 20px;
-    color: white;
-    
+    color: white;  
 }
 .Heading2{
     padding-top: 50px;
     font-weight: 50px;
-    
-
 }
 .workout1{
     font-size:30px;
     font-style: italic;
-  
 }
 .workout2{
-    color: white;
-   
+    color: white; 
 }
 .fast{
     color: red;
