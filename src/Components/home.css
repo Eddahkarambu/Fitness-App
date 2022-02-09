@@ -5,7 +5,7 @@
 }
 .Heading{
     padding-top: 50px;
-    font-weight: 50px;
+    font-weight: 20px;
     color: white;
     
 }
@@ -17,23 +17,28 @@
 }
 .workout1{
     font-size:30px;
+    font-style: italic;
   
 }
 .workout2{
     color: white;
+   
 }
 .fast{
     color: red;
 }
-.button {
-    background-color: white;
+.submit-button {
+     background-color: white;
     border: none;
-    color: white; 
+    color: black; 
     padding: 15px 32px; 
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+    border-radius: 8px;
+    font-size: 16px;
+   
   }
   .shorter{
       color:white;

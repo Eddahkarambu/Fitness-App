@@ -28,8 +28,8 @@ function Home() {
           
           </div>
 
-          <div className="button">
-              <button>Sign in</button>
+          <div className="submit-button">
+              Sign in
           </div>
       </div>
     );
