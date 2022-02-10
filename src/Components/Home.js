@@ -1,16 +1,9 @@
 import './home.css';
+import Navbar from './Navbar.js';
 function Home() {
     return (
       <div className="home">
-          <div className="Heading">
-              <div className='Eddah'>
-          <h1>EDDAH'S </h1>
-          </div>
-          <div className='fast'>
-            <h1>FAST FITNESS</h1>
-            </div>
-          </div>
-
+           <Navbar />
           <div className="Heading2">
               <div className='workout1'>
                   <div className='shorter'>

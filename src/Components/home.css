@@ -3,11 +3,7 @@
     min-height: 100vh;
     padding-left:50px;
 }
-.Heading{
-    padding-top: 50px;
-    font-weight: 20px;
-    color: white;  
-}
+
 .Heading2{
     padding-top: 50px;
     font-weight: 50px;
@@ -19,9 +15,7 @@
 .workout2{
     color: white; 
 }
-.fast{
-    color: red;
-}
+
 .submit-button {
      background-color: white;
     border: none;
