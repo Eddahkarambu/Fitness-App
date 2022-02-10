@@ -3,7 +3,6 @@ import './Navbar.css';
 function Navbar(){
     return(
         <div className="navbar">
-        <div className="topnav">
         <div className="Heading">
               <div className='Eddah'>
           <h1>EDDAH'S </h1>
@@ -18,8 +17,6 @@ function Navbar(){
             <a href="#about">About</a>
             <a href="#contact">Contact</a>
             </div>
-        </div>
-
         </div>
 
     );
