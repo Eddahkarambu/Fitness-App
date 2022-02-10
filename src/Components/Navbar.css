@@ -11,7 +11,7 @@
     display:flex;
     justify-content: space-between;
 }
-.main-nav a {
+.main-nav a { 
     float: left;
     color: #f2f2f2;
     text-align: center;
@@ -20,7 +20,6 @@
     font-size: 20px; 
     margin-top: 30px;
     margin-right: 20px;
-   
   }
 
   .main-nav a:hover {
@@ -30,7 +29,6 @@
   }
   .main-nav{
     margin-right: 50px;
-
   }
 
  
