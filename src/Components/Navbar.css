@@ -30,5 +30,10 @@
   .main-nav{
     margin-right: 50px;
   }
+  @media(min-width:760px){
+      .main-nav{
+          display:block
+      }
+  }
 
  
