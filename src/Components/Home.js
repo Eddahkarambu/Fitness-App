@@ -1,5 +1,6 @@
 import './home.css';
 import Navbar from './Navbar.js';
+
 function Home() {
     return (
       <div className="home">
@@ -23,6 +24,9 @@ function Home() {
 
           <div className="submit-button">
               Sign in
+          </div>
+          <div className="submit-button1">
+              Sign up
           </div>
       </div>
     );
