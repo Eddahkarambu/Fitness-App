@@ -1,10 +1,6 @@
 import './home.css';
 import Navbar from './Navbar.js';
 
-
-//import { fas fa-bars } from '@fortawesome/free-solid-svg-icons'
-
-
 function Home() {
     return (
       <div className="home">
@@ -28,6 +24,9 @@ function Home() {
 
           <div className="submit-button">
               Sign in
+          </div>
+          <div className="submit-button1">
+              Sign up
           </div>
       </div>
     );

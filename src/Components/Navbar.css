@@ -30,6 +30,9 @@
     color: black;
     overflow: hidden;
   }
+.mobile-nav {
+    display: inline-block;
+}
 
 
 .mobile-nav a { 
@@ -68,7 +71,7 @@
   }
   @media(max-width:818px){
     .main-nav{
-          display:inline-block;
+          display:none;
       }
     .header-icon {
         width: 100%;
