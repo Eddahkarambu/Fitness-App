@@ -19,7 +19,7 @@ function Navbar(){
                 </div>
 
                 <div className="Icon">
-                    <FontAwesomeIcon icon={faBars} />
+                    <FontAwesomeIcon icon={faBars} onClick={showmenu}/>
                 </div>
             </div>
             <div className="main-nav">
