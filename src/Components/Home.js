@@ -23,10 +23,10 @@ function Home() {
           </div>
 
           <div className="submit-button">
-              Sign in
+              Sign up
           </div>
           <div className="submit-button1">
-              Sign up
+              Sign in   
           </div>
       </div>
     );
