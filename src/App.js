@@ -1,12 +1,11 @@
 import React  from "react";
-import Home from './Components/Home.js';
+import Paths from './Components/Router';
 
 function App() {
   return (
-    <div className="App">
-      <Home />
-      
-    </div>
+      <div className="App">
+          <Paths />
+      </div>
   );
 }
 

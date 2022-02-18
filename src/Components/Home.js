@@ -1,7 +1,16 @@
 import './home.css';
 import Navbar from './Navbar.js';
+import { useNavigate } from "react-router-dom";
+
 
 function Home() {
+    let navigate = useNavigate(); 
+    const routeChange = () =>{ 
+      let path = `/signup`; 
+      navigate(path);
+    }
+
+    
     return (
       <div className="home">
            <Navbar />
@@ -22,11 +31,12 @@ function Home() {
           
           </div>
 
-          <div className="submit-button">
-              Sign in
+          <div className="submit-button"  color="primary" 
+            onClick={routeChange}>
+              Sign up
           </div>
           <div className="submit-button1">
-              Sign up
+              Sign in   
           </div>
       </div>
     );
