@@ -1,8 +1,6 @@
 import React, {useState}  from "react";
 import './Signin.css';
-// import './Navbar.css';
 function Signin() {
-    const [name, setName] = useState('');
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
     
@@ -15,10 +13,6 @@ function Signin() {
                     value={email} type="email" />
 
                     <label className="label">Password</label>
-                    <input className="input"
-                    value={password} type="password" />
-
-                    <label className="label">Confirm password</label>
                     <input className="input"
                     value={password} type="password" />
 
