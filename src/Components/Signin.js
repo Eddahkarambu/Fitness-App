@@ -8,7 +8,7 @@ function Signin() {
     
     return (
       <div className="Signin">
-          <div className="form">
+          <div className="signinform">
             <form >
                     <label className="label">Email</label>
                     <input className="input"
@@ -22,7 +22,7 @@ function Signin() {
                     <input className="input"
                     value={password} type="password" />
 
-                    <button  className="btn" type="submit">
+                    <button  className="button" type="submit">
                     Submit
                     </button>
             </form> 
