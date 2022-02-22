@@ -10,6 +10,11 @@ function Home() {
       navigate(path);
     }
 
+    const pathChange = () =>{ 
+        let path = `/signin`; 
+        navigate(path);
+      }
+
     
     return (
       <div className="home">
@@ -35,7 +40,8 @@ function Home() {
             onClick={routeChange}>
               Sign up
           </div>
-          <div className="submit-button1">
+          <div className="submit-button1" color="primary"
+            onClick={pathChange}>
               Sign in   
           </div>
       </div>
