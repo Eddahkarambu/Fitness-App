@@ -1,6 +1,6 @@
 import React, {useState}  from "react";
 import './Signin.css';
-import './Navbar.css';
+// import './Navbar.css';
 function Signin() {
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
