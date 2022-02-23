@@ -28,7 +28,7 @@ function Signin() {
         } else {
             setSubmitted(true);
             setError(false);
-            alert("You have successfully signed up")
+            alert("You have successfully signed in")
             }
       };
     
