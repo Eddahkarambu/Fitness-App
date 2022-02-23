@@ -5,6 +5,7 @@ function Signup() {
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
+    const [confirmpassword, setconfirmPassword] = useState('');
    
 
     const [submitted, setSubmitted] = useState(false);
@@ -24,14 +25,24 @@ function Signup() {
         setPassword(e.target.value);
         setSubmitted(false);
       };
+      const handlePassword = (e) => {
+        setconfirmPassword(e.target.value);
+        setSubmitted(false);
+      };
 
       const handleSubmit = (e) => {
         e.preventDefault();
         if (name === '' || email === '' || password === '') {
           setError(true);
         } else {
-          setSubmitted(true);
-          setError(false);
+            if(password !== confirmPassord) {
+                setError(true)
+            }
+            else {
+                setSubmitted(true);
+                setError(false);
+                alert("You have successfully signed up")
+            }
         }
       };
   
@@ -39,6 +50,11 @@ function Signup() {
       <div className="Sign">
           <div className="form">
             <form >
+                {error && (
+                    <div> 
+                        confrim your log in
+                    </div>
+                )}
                     <label className="label">Name</label>           
                     <input onChange={handleName} className="input"
                     value={name} type="text"/>
@@ -53,11 +69,12 @@ function Signup() {
 
                     <label className="label">Confirm password</label>
                     <input onChange={handlePassword} className="input"
-                    value={password} type="password"/>
+                    value={confirmpassword} type="password"/>
 
                     <button onClick={handleSubmit} className="btn" type="submit">
                     Submit
                     </button>
+
             </form> 
         </div>
       </div>
