@@ -5,6 +5,7 @@ function Signup() {
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
+   
 
     const [submitted, setSubmitted] = useState(false);
     const [error, setError] = useState(false);
@@ -22,6 +23,16 @@ function Signup() {
       const handlePassword = (e) => {
         setPassword(e.target.value);
         setSubmitted(false);
+      };
+
+      const handleSubmit = (e) => {
+        e.preventDefault();
+        if (name === '' || email === '' || password === '') {
+          setError(true);
+        } else {
+          setSubmitted(true);
+          setError(false);
+        }
       };
   
     return (
