@@ -25,7 +25,7 @@ function Signup() {
         setPassword(e.target.value);
         setSubmitted(false);
       };
-      const handlePassword = (e) => {
+      const handleconfirmPassword = (e) => {
         setconfirmPassword(e.target.value);
         setSubmitted(false);
       };
@@ -68,7 +68,7 @@ function Signup() {
                     value={password} type="password"/>
 
                     <label className="label">Confirm password</label>
-                    <input onChange={handlePassword} className="input"
+                    <input onChange={handleconfirmPassword} className="input"
                     value={confirmpassword} type="password"/>
 
                     <button onClick={handleSubmit} className="btn" type="submit">
