@@ -8,15 +8,49 @@
 .description1{
     text-align: center;
     justify-content: center;
+    padding-top: 50px;
     
 }
 .gym{
     font-size: 50px;
-    color:tomato
+    color:tomato;
+    
+    
 
 }
 .gym1{
     font-size: 20px;
-    color:whitesmoke
+    color:whitesmoke;
+    margin-bottom: 50px;
     
+    
+}
+.gym2{
+    font-size: 50px;
+    color:tomato;
+    
+}
+.gym3{
+    font-size: 20px;
+    color:whitesmoke;
+    display: inline-block;
+    margin-bottom: 50px;
+    overflow-wrap: break-word;
+}
+.gym4{
+    font-size: 30px;
+    color:white;
+    
+}
+.gym5{
+    font-size: 20px;
+    color:whitesmoke;
+    display: inline-block;
+    margin-bottom: 50px;
+    overflow-wrap: break-word;
+    line-height: 1.6;
+}
+.image{
+    background-image: url('../images/signin.jpeg');
+    color: whitesmoke;
 }

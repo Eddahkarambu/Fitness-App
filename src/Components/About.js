@@ -17,6 +17,35 @@ function About() {
             <div className="gym2">
                 OUR VALUES
             </div>
+            <div className="gym3">
+                Helping customers reach their fitness goals has been at the heart of what we do and why we do it ,
+                We live and breathe our three core values and promises
+                which speak of our commitment to our customers, staff, the industry and our business as a whole.
+            </div>
+            <div className="Services">
+            <div className="gym4">
+            Customer Service
+            </div>
+            <div className="gym5">
+            Customers are why we exist and we are passionate about delivering exceptional, personalised customer service to all.
+            </div>
+            <div className="gym4">
+            Communication
+            </div>
+            <div className="gym5">
+            We believe open, direct and supportive communication is the foundation of any successful organisation.
+            </div>
+            <div className="gym4">
+            Teamwork
+            </div>
+            <div className="gym5">
+            We are committed to common goals, with effective communication and accountability making our team achieve greater results.
+            </div>
+            </div>
+
+
+            
+            
             </div>
         </div>
 
