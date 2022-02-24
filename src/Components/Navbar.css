@@ -68,6 +68,7 @@
 
   .main-nav{
     margin-right: 50px;
+    height: fit-content;
   }
   @media(max-width:818px){
     .main-nav{

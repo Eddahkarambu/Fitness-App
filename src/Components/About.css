@@ -1,0 +1,22 @@
+.description{
+    background-image: url('../images/lady.jpeg');
+    min-height: 100vh;
+    padding-left:50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.description1{
+    text-align: center;
+    justify-content: center;
+    
+}
+.gym{
+    font-size: 50px;
+    color:tomato
+
+}
+.gym1{
+    font-size: 20px;
+    color:whitesmoke
+    
+}
