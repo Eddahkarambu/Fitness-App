@@ -2,6 +2,7 @@ import './Navbar.css';
 import React, {useState}  from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars } from '@fortawesome/free-solid-svg-icons'
+import { Link } from "react-router-dom";
 
 
 function Navbar(){
@@ -27,17 +28,17 @@ function Navbar(){
                 </div>
             </div>
             <div className="main-nav">
-                <div><a className="active" href="#home">Home</a></div>
-                <div><a href="#About">News</a></div>
-                <div><a href="#about">About</a></div>
-                <div><a href="#contact">Contact</a></div>
+                <Link to='/Home' >Home</Link>
+                <Link to='/About' >About</Link>
+                <Link to='/Services' >Services</Link>
+                <Link to='/Contact'>Contact</Link>
             </div>
             {showMenu && (
                 <div className="mobile-nav">
-                    <div><a className="active" href="#home">Home</a></div>
-                    <div><a href="#About">News</a></div>
-                    <div><a href="#about">About</a></div>
-                    <div><a href="#contact">Contact</a></div>
+                 <Link to='/Home'>Home</Link>
+                <Link to='/About'>About</Link>
+                <Link to='/Services'>Services</Link>
+                <Link to='/Contact'>Contact</Link>
                 </div>
             )}
         </div>
