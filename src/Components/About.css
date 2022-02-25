@@ -2,6 +2,7 @@
     background-image: url('../images/lady.jpeg');
     min-height: 100vh;
     padding-left:50px;
+    padding-right: 50px;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -14,16 +15,11 @@
 .gym{
     font-size: 50px;
     color:tomato;
-    
-    
-
 }
 .gym1{
     font-size: 20px;
     color:whitesmoke;
-    margin-bottom: 50px;
-    
-    
+    margin-bottom: 50px;   
 }
 .gym2{
     font-size: 50px;
@@ -39,8 +35,8 @@
 }
 .gym4{
     font-size: 30px;
-    color:white;
-    
+    color:white;  
+    margin-top: 30px;   
 }
 .gym5{
     font-size: 20px;
@@ -50,7 +46,32 @@
     overflow-wrap: break-word;
     line-height: 1.6;
 }
+.Services{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    background-color: rgb(53, 49, 48);
+    justify-content: space-around;
+    justify-content: space-between;
+    display: flex;
+    margin-bottom: 50px;  
+}
+
 .image{
-    background-image: url('../images/signin.jpeg');
-    color: whitesmoke;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    justify-content: space-around;
+    display: flex;
+    margin-bottom: 50px;  
+}
+ 
+.fit-picture{
+    width:27%;
+}
+@media(max-width:600px){
+    .Services {
+        display: block;
+    }
+      
 }

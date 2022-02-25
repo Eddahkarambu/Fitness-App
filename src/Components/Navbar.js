@@ -28,17 +28,17 @@ function Navbar(){
                 </div>
             </div>
             <div className="main-nav">
-                <Link to='/Home' className='Home'>Home</Link>
-                <Link to='/About' className='About'>About</Link>
-                <Link to='/Services' className='Services'>Services</Link>
-                <Link to='/Contact' className='Contact'>Contact</Link>
+                <Link to='/Home' >Home</Link>
+                <Link to='/About' >About</Link>
+                <Link to='/Services' >Services</Link>
+                <Link to='/Contact'>Contact</Link>
             </div>
             {showMenu && (
                 <div className="mobile-nav">
-                 <Link to='/Home' className='Home'>Home</Link>
-                <Link to='/About' className='About'>About</Link>
-                <Link to='/Services' className='Services'>Services</Link>
-                <Link to='/Contact' className='Contact'>Contact</Link>
+                 <Link to='/Home'>Home</Link>
+                <Link to='/About'>About</Link>
+                <Link to='/Services'>Services</Link>
+                <Link to='/Contact'>Contact</Link>
                 </div>
             )}
         </div>
