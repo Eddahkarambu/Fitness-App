@@ -1,0 +1,79 @@
+.Offers{
+    background-image: url('../images/service.jpeg');
+    min-height: 100vh;
+    padding-left:50px;
+    padding-right: 50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.heading{
+    font-size: 50px;
+    color:tomato;
+
+}
+.workouts{
+    text-align: center;
+    justify-content: center;
+    padding-top: 50px;   
+}
+.needs{
+    font-size: 20px;
+    color:whitesmoke;
+    margin-bottom: 50px;   
+}
+.workout{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    justify-content: space-around;
+    display: flex;
+    margin-bottom: 50px;  
+}
+.work{
+    width:27%;
+}
+.Explanation{
+    font-size: 30px;
+    color:white;  
+    margin-top: 30px; 
+    margin-bottom: 20px;   
+}
+
+.Paragraph{
+    font-size: 20px;
+    color:whitesmoke;
+    display: inline-block;
+    margin-bottom: 50px;
+    overflow-wrap: break-word;
+    line-height: 1.6;
+}
+
+.Every{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    justify-content: space-around;
+    justify-content: space-between;
+    display: flex;
+    margin-bottom: 50px;  
+}
+.Every1{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    
+    justify-content: space-around;
+    justify-content: space-between;
+    display: flex;
+    margin-bottom: 50px;  
+}
+
+@media(max-width:600px){
+    .Every{
+        display: block;
+    }
+    .Every1{
+        display: block;
+    }
+      
+}
