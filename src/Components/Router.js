@@ -4,7 +4,7 @@ import Home from "./Home";
 import Signup from "./Signup";
 import Signin from "./Signin";
 import About from "./About";
-import Services from "./Services";
+import Services from "./Service";
 import Contact from "./Contact";
 
 export default class Paths extends Component {
