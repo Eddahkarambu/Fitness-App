@@ -1,0 +1,8 @@
+.Contacts{
+    background-image: url('../images/contacts.jpeg');
+    min-height: 100vh;
+    padding-left:50px;
+    padding-right: 50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
