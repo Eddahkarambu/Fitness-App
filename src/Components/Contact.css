@@ -6,3 +6,64 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+
+.label{
+    display: block;
+    font-size: 30px;
+    color: whitesmoke;
+    padding: 5px;
+    }
+    
+    .input{
+    font-size: 30px;
+    padding: 5px;
+    margin: 2px;
+    margin-bottom: 40px;
+    }
+    
+    
+    .btn{
+        background-color: white;           
+        border: none;
+        color: black; 
+        padding: 15px 32px; 
+        text-align: center;
+        text-decoration: none;
+        display: block;
+        border-radius: 8px;
+        font-size: 16px;
+        font-size: larger;
+        margin: 10px auto;
+        margin-top: 20px;
+    }
+    .details{
+        text-align: center;
+        justify-content: center;
+        margin-top: 50px;  
+        width: 100%;
+        display: flex;
+    }
+
+    form{
+        border: solid;
+        border-color: white;
+        padding: 1rem;
+        height: fit-content;
+    }
+
+    .contactus{
+        font-size: 60px;
+        color:white;  
+        text-decoration: underline;
+        /* margin-top: 30px;  */
+        justify-content: center;
+        align-items: center;
+        /* margin-bottom: 20px;  */
+    }
+    @media(max-width:407px){
+        .input{
+            font-size: 24px;
+        }
+    }
+    
