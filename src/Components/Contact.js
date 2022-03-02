@@ -53,16 +53,16 @@ function Contact() {
                     </div>
                 )}
                <label className="label">Name</label>
-                <input onChange={handleName} className="input"
+                <input onChange={handleName} className="input" placeholder="Your name.."
                 value={Name} type="Name" />
 
 
                 <label className="label">Email</label>
-                <input  onChange={handleEmail} className="input"
+                <input  onChange={handleEmail} className="input" placeholder="Your email.."
                 value={Email} type="email"/>
 
                 <label className="label">Message</label>
-                <input onChange={handleMessage}  className="input"
+                <input onChange={handleMessage}  className="input" placeholder="Write something.."
                 value={Message} type="email"/>
 
                 <button onClick={handleSubmit} className="btn" type="submit">

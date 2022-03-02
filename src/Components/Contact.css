@@ -11,55 +11,58 @@
 .label{
     display: block;
     font-size: 30px;
-    color: whitesmoke;
+    color: white;
     padding: 5px;
+    float: left;
     }
     
-    .input{
-    font-size: 30px;
-    padding: 5px;
-    margin: 2px;
-    margin-bottom: 40px;
+.input{
+        width: 100%;
+        padding: 12px; 
+        border: 1px solid #ccc;
+        border-radius: 4px; 
+        box-sizing: border-box; 
+        margin-top: 6px; 
+        margin-bottom: 16px; 
+        resize: vertical 
     }
 
     
-    .btn{
-        background-color: white;           
-        border: none;
-        color: black; 
-        padding: 15px 32px; 
-        text-align: center;
-        text-decoration: none;
-        display: block;
-        border-radius: 8px;
-        font-size: 16px;
-        font-size: larger;
-        margin: 10px auto;
-        margin-top: 20px;
+.btn{
+    background-color: white;
+    color: black;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
     }
-    .details{
+
+ .btn:hover{
+        background-color: red
+ } 
+
+.details{
         text-align: center;
         justify-content: center;
         margin-top: 50px;  
-        width: 100%;
+        width: 70%;
         display: flex;
     }
 
-    form{
-        border: solid;
-        border-color: white;
-        padding: 1rem;
-        height: fit-content;
+form{
+    border-radius: 5px;
+    /* background-color: #f2f2f2; */
+    padding: 20px;
     }
 
-    .contactus{
+.contactus{
         font-size: 60px;
         color:white;  
         text-decoration: underline;  
         justify-content: center;
-        align-items: center;
-        
+        align-items: center;  
     }
+ 
     @media(max-width:407px){
         .input{
             font-size: 24px;
