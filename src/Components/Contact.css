@@ -55,14 +55,11 @@
         margin-top: 50px;  
         width: 40%;
         color: whitesmoke;
-        background-color: rgb(143, 60, 43);
-       
+        background-color: rgb(143, 60, 43);  
     }
 .call{
     font-size: 30px;
     padding-top:50px;
-   
-
 }
 
 .number{
@@ -71,7 +68,30 @@
 }
 .All3{
      margin-bottom: 40px;
+}
 
+.logo1{
+    font-size: 50px;
+    justify-content: center;
+    color: white;
+}
+.logo2{
+    font-size: 30px; 
+    justify-content: center;
+    color: whitesmoke;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+}
+.logo{
+    padding-top:50px;
+}
+.logo3{
+    width:40%;
+    padding-top:50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom:50px;
 }
    
 
@@ -92,8 +112,6 @@ form{
 .All{
     display: flex;
     justify-content: space-around;
-    /* justify-content: space-between; */
-
 }
  
     @media(max-width:407px){

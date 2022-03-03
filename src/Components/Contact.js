@@ -1,6 +1,8 @@
 import React,{useState} from "react";
 import './Contact.css';
 import Navbar from './Navbar.js';
+import icons from '../images/icons.png'
+
 
 function Contact() {
     const [Name, setName] = useState('');
@@ -102,8 +104,20 @@ function Contact() {
                </div>
                </div>
                
-
            </div>
+           </div>
+
+           <div className="logo">
+               <div className="logo1">
+                   ITS NEVER TOO LATE TO FEEL GREAT.
+                   
+               </div>
+               <div className="logo2">
+                 You can also find us on our social media platforms;
+               </div>
+               <div className="logo3">
+               <img className="pictures" src={icons} alt="icons"/>
+               </div>
            </div>
         </div>
 
