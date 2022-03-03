@@ -45,15 +45,41 @@
         text-align: center;
         justify-content: center;
         margin-top: 50px;  
-        width: 70%;
+        width: 40%;
         display: flex;
     }
+   
+ .All2{
+        text-align: center;
+        justify-content: center;
+        margin-top: 50px;  
+        width: 40%;
+        color: whitesmoke;
+        background-color: rgb(143, 60, 43);
+       
+    }
+.call{
+    font-size: 30px;
+    padding-top:50px;
+   
+
+}
+
+.number{
+    font-size: 20px;
+
+}
+.All3{
+     margin-bottom: 40px;
+
+}
+   
 
 form{
     border-radius: 5px;
-    /* background-color: #f2f2f2; */
     padding: 20px;
     }
+
 
 .contactus{
         font-size: 60px;
@@ -62,10 +88,23 @@ form{
         justify-content: center;
         align-items: center;  
     }
+
+.All{
+    display: flex;
+    justify-content: space-around;
+    /* justify-content: space-between; */
+
+}
  
     @media(max-width:407px){
         .input{
             font-size: 24px;
+        }
+    }
+
+    @media(max-width:452px){
+        .input:placeholder{
+            display: block;
         }
     }
     

@@ -45,6 +45,7 @@ function Contact() {
             <div className="contactus">
                 CONTACT US
             </div>
+            <div className="All">
            <div className="details">
              <form>
                 {error && (
@@ -68,9 +69,41 @@ function Contact() {
                 <button onClick={handleSubmit} className="btn" type="submit">
                     Submit
                     </button>
-
-                
                </form>
+           </div>
+
+           <div className="All2">
+               <div className="All3">
+               <div className="call">
+               CALL US
+               </div>
+               <div className="number">
+                   0724298956
+               </div>
+               </div>
+
+                <div className="All3">
+               <div className="call">
+               LOCATION
+               </div>
+               <div className="number">
+                   Roysambu ,Lumumba drive
+               </div>
+               </div>
+
+
+            <div className="All3">
+               <div className="call">
+               BUSINESS HOURS
+               </div>
+               <div className="number">
+                   Mon - Fri--10am-8pm
+                   sat,Sun -- Closed
+               </div>
+               </div>
+               
+
+           </div>
            </div>
         </div>
 
