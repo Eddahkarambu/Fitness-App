@@ -84,14 +84,18 @@
 }
 .logo{
     padding-top:50px;
+    padding-bottom:50px;
 }
 .logo3{
     width:40%;
-    padding-top:50px;
     display: flex;
     justify-content: center;
     align-items: center;
     padding-bottom:50px;
+    display: flex;
+}
+.logo2{
+    padding-top: 20px;
 }
    
 

@@ -1,7 +1,9 @@
 import React,{useState} from "react";
 import './Contact.css';
 import Navbar from './Navbar.js';
-import icons from '../images/icons.png'
+import { SocialIcon } from 'react-social-icons';
+
+
 
 
 function Contact() {
@@ -116,7 +118,9 @@ function Contact() {
                  You can also find us on our social media platforms;
                </div>
                <div className="logo3">
-               <img className="pictures" src={icons} alt="icons"/>
+               <SocialIcon network="twitter" style={{  margin: '20px'}}/>
+               <SocialIcon network="instagram" style= {{  margin:'20px'}}/>
+               <SocialIcon network="facebook" style={{ margin: '20px '}}/>
                </div>
            </div>
         </div>
