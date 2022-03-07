@@ -57,17 +57,17 @@ function Contact() {
                         Please enter all the fields correctly
                     </div>
                 )}
-               <label className="label">Name</label>
-                <input onChange={handleName} className="input" placeholder="Your name.."
+               <label className="contact-label">Name</label>
+                <input onChange={handleName} className="contact-input" placeholder="Your name.."
                 value={Name} type="Name" />
 
 
-                <label className="label">Email</label>
-                <input  onChange={handleEmail} className="input" placeholder="Your email.."
+                <label className="contact-label">Email</label>
+                <input  onChange={handleEmail} className="contact-input" placeholder="Your email.."
                 value={Email} type="email"/>
 
-                <label className="label">Message</label>
-                <input onChange={handleMessage}  className="input" placeholder="Write something.."
+                <label className="contact-label">Message</label>
+                <input onChange={handleMessage}  className="contact-input" placeholder="Write something.."
                 value={Message} type="email"/>
 
                 <button onClick={handleSubmit} className="btn" type="submit">
