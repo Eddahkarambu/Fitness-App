@@ -4,6 +4,7 @@ import Navbar from './Navbar.js';
 import strong from '../images/strong.jpeg'
 import strong2 from '../images/strong2.jpeg'
 import strong3 from '../images/strong3.jpeg'
+// import useLocalStorage from '../hooks/useLocalStorage'
 
 function About() {
     return(

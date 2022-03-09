@@ -5,7 +5,6 @@ import { SocialIcon } from 'react-social-icons';
 
 
 
-
 function Contact() {
     const [Name, setName] = useState('');
     const [Email, setEmail] = useState('');
