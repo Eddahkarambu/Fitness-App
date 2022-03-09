@@ -41,6 +41,11 @@ function Signup() {
             else {
                 setSubmitted(true);
                 setError(false);
+
+                var signupObject = {name,email, password};
+
+                // Put the object into storage
+                localStorage.setItem('signupObject', JSON.stringify(signupObject));
                 alert("You have successfully signed up")
             }
         }

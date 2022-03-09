@@ -28,9 +28,17 @@ function Signin() {
         } else {
             setSubmitted(true);
             setError(false);
-            alert("You have successfully signed in")
+            const retrieveObject = localStorage.getItem('signupObject');
+
+            const previosObject = JSON.parse(retrieveObject);
+
+           if( previosObject.email === email && previosObject.password === password){
+               alert("You have successfully signed in")
+            }else{
+                alert('please enter correct details')
             }
-      };
+      }
+    };
     
     return (
       <div className="Signin">
